@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(./images/Λrt\ Full\ ƜΛŁŁ\ \ \ \ ௱ΛらŤƐ尺\ ᴿᴿalgory.jpg);
+  background-color: #734060;
+  padding: 20px;
+  color: white;
+  background-position: center top;
+  background-size: cover;
+  background-attachment: fixed;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  margin-bottom: 50px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.title b {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  /* margin-left: 80px; */
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 0.3s linear;
+  font-size: 25px;
+}
+
+.links a:hover {
+  color: #d9d9d9;
+  background-color: white;
+  color: #734060;
+}
+
+#container {
+  margin-top: 100px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.food {
+  border: 2px solid black;
+  padding: 10px;
+  box-shadow: 2px 2px 15px #ccc;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  transition: all 0.5s linear;
+  border-radius: 3px;
+}
+
+.footer {
+  background-color: white;
+  box-shadow: 2px 2px 15px #ccc;
+  margin-top: 50px;
+  text-align: center;
+  line-height: 30px;
+  padding: 20px;
+}
+.footer p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+  /* background: linear-gradient(120deg, #f7d9e3, #f5efff); */
+  background-color: #f0fff4;
+  color: #333;
+}
+
+.food:hover {
+  transform: scale(1.09);
+}
+
+.image1 {
+  width: 100px;
+  height: 90px;
+}
+
+.active {
+  color: red !important;
+  background-color: white;
+}
+
+.card img {
+  display: block;
+}
+
+.h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+}
+
+.recipe-container {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 20px;
+  padding: 10px;
+  margin-left: 150px;
+}
+
+.card {
+  /* background: rgb(208, 223, 227); */
+  /* background: linear-gradient(135deg, #a18cd1, #fbc2eb); */
+  /* background: linear-gradient(135deg, #a18cd1, #fbc2eb);
+  backdrop-filter: blur(8px); */
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  /* box-shadow: #ccc; */
+  overflow: hidden;
+  text-align: center;
+  font-style: italic;
+  transition: transform 0.2s;
+  width: 285px;
+  height: 250px;
+  padding: 5px;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
+  height: 200px;
+  width: 250px;
+  position: relative;
+  left: 10px;
+  padding: 10px;
+}
+
+.card h3 {
+  color: #4b0082;
+  position: relative;
+  bottom: 5px;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .card {
+    width: 80%;
+    text-align: center;
+  }
+
+  .card img {
+    margin-left: 75px;
+  }
+
+
+  
+}
+
+.bigimages img{
+  width: 700px;
+  height: 300px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  box-shadow:2px 2px 16px #ccc;
+}
+.bigimages{
+  text-align: center;
+}
+.para{
+  position: relative;
+  bottom: 220px;
+  /* left: 50px; */
+  font-size: 22px;
+  margin-left:80px ;
+}

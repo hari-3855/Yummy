@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(./images/Λrt\ Full\ ƜΛŁŁ\ \ \ \ ௱ΛらŤƐ尺\ ᴿᴿalgory.jpg);
+  background-color: #734060;
+  padding: 20px;
+  color: white;
+  background-position: center top;
+  background-size: cover;
+  background-attachment: fixed;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  margin-bottom: 50px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.title b {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  /* margin-left: 80px; */
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 0.3s linear;
+  font-size: 25px;
+}
+
+.links a:hover {
+  color: #d9d9d9;
+  background-color: white;
+  color: #734060;
+}
+
+#container {
+  margin-top: 100px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.food {
+  border: 2px solid black;
+  padding: 10px;
+  box-shadow: 2px 2px 15px #ccc;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  transition: all 0.5s linear;
+  border-radius: 3px;
+}
+
+.food:hover {
+  transform: scale(1.09);
+}
+
+.image1 {
+  width: 100px;
+  height: 90px;
+}
+
+.active {
+  color: red !important;
+  background-color: white;
+}
+
+.card img {
+  display: block;
+}
+
+.h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+}
+
+.our-work {
+  margin-top: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 16px #ccc;
+  padding: 30px;
+  line-height: 30px;
+}
+
+.our-work ul {
+  list-style-type: none;
+  font-family: sans-serif;
+}
+
+.our-work h1 {
+  font-family: sans-serif;
+}
+
+.our-work p {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #f9f9f9;
+  background-color: #f0fff4;
+  color: #333;
+}
+
+.contact-section {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.contact-section h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.contact-form {
+  background: #fff5e6;
+  padding: 25px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 0 auto 30px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h3 {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.contact-form textarea {
+  resize: none;
+  height: 100px;
+}
+
+.contact-form button {
+  background: #f9b21a;
+  border: none;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background: #e89f00;
+}
+
+.about img {
+  /* width: 600px;
+      height: 400px; */
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 18px #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.about {
+  text-align: center;
+}
+
+.aboutp {
+  position: relative;
+  bottom: 350px;
+  font-size: 22px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+
+body {
+  background-color: #f0fff4;
+  color: #333;
+}
+
+.footer {
+  background-color: white;
+  box-shadow: 2px 2px 15px #ccc;
+  margin-top: 50px;
+  text-align: center;
+  line-height: 30px;
+  padding: 20px;
+}
+
+.footer p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#reviews {
+  width: 100%;
+  padding: 20px;
+  /* border: 2px solid #ccc; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.re {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container {
+  margin-top: 10px;
+  border: 2px solid #ccc;
+  width: 290px;
+
+  padding: 30px;
+  text-align: center;
+}

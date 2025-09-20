@@ -1,0 +1,122 @@
+[
+{
+    "strArea" : "American",
+    "strImage" : "./images/america.png"
+},
+{
+    "strArea" : "British",
+    "strImage" : "./images/british.png"
+},
+{
+    "strArea" : "Canadian",
+    "strImage" : "./images/3.png"
+},
+{
+    "strArea" : "Chinese",
+    "strImage" : "./images/4.png"
+},
+{
+    "strArea" : "Croatian",
+    "strImage" : "./images/5.png"
+},
+{
+    "strArea" : "Dutch",
+    "strImage" : "./images/6.png"
+},
+{
+    "strArea" : "Egyptian",
+    "strImage" : "./images/7.png"
+},
+{
+    "strArea" : "Filipino",
+    "strImage" : "./images/8.png"
+},
+{
+    "strArea" : "French",
+    "strImage" : "./images/9.png"
+},
+{
+    "strArea" : "Greek",
+    "strImage" : "./images/9.png"
+},
+{
+    "strArea" : "Indian",
+    "strImage" : "./images/10.png"
+},
+{
+    "strArea" : "Irish",
+    "strImage" : "./images/11.png"
+},
+{
+    "strArea" : "Italian",
+    "strImage" : "./images/12.png"
+},
+{
+    "strArea" : "Jamaican",
+    "strImage" : "./images/13.png"
+},
+{
+    "strArea" : "Japanese",
+    "strImage" : "./images/14.png"
+},
+{
+    "strArea" : "Kenyan",
+    "strImage" : "./images/15.png"
+},
+{
+    "strArea" : "Malaysian",
+    "strImage" : "./images/16.png"
+},
+{
+    "strArea" : "Mexican",
+    "strImage" : "./images/17.png"
+},
+{
+    "strArea" : "Moroccan",
+    "strImage" : "./images/18.png"
+},
+{
+    "strArea" : "Polish",
+    "strImage" : "./images/19.png"
+},
+{
+    "strArea" : "Portuguese",
+    "strImage" : "./images/20.png"
+},
+{
+    "strArea" : "Russian",
+    "strImage" : "./images/21.png"
+},
+{
+    "strArea" : "Spanish",
+    "strImage" : "./images/22.png"
+}
+,
+{
+    "strArea" : "Thai",
+    "strImage" : "./images/23.png"
+},
+{
+    "strArea" : "Tunisian",
+    "strImage" : "./images/24.png"
+}
+,
+{
+    "strArea" : "Turkish",
+    "strImage" : "./images/25.png"
+},
+{
+    "strArea" : "Ukrainian",
+    "strImage" : "./images/26.png"
+}
+,
+{
+    "strArea" : "Uruguayan",
+    "strImage" : "./images/27.png"
+},
+{
+    "strArea" : "Vietnamese",
+    "strImage" : "./images/28.png"
+}
+
+]
